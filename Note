@@ -1,0 +1,29 @@
+1. HashMap class
+Java vs Dart
+Create a HashMap
+HashMap hashMap = new HashMap();
+HashMap a = new HashMap();
+
+(1). clear
+Dart: hashMap.clear()
+Java: hashMap.clear()
+
+(2). containsKey
+Dart: hashMap.containsKey(Object key)
+Java: hashMap.containsKey(Object key)
+
+(3). containsValue
+Dart: hashMap.containsValue(Object key)
+Java: hashMap.containsValue(Object key)
+
+(4). put/add
+Dart: hashMap["Key"] = 'Value'
+Java: hashMap.put("Key", "Value")
+
+(5). equals
+Dart: null
+Java: a.equals(hashMap)
+
+(6). forEach
+Dart:  a.forEach((key, value){print(value);}); //another way to write forEach methods is "a.forEach((key, value) => print(value))"
+Java: 
